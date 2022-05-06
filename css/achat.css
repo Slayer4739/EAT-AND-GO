@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+.game{
+    
+    border-radius: 7px;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    transition: transform .2s; /* Animation */
+    width: 450px;
+    heigth: 300px;
+    position: relative;
+}
+
+#block2{
+    margin-top: 70pt;
+    margin-left: 370pt;
+    heigth: 50%;
+    width: 100%;
+    background-color: black;
+    border-radius: 9px;
+    border: black solid 4px;
+    
+}
+
+#avertissement p{
+    margin-left: 500pt;
+}
+
+.game p{
+    margin-left: 370pt;
+    white-space: pre-wrap;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}
+
+.game .title-game{
+   margin-left: 370pt;
+    font-size: 110%;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+.game h4{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+
+.game .info{
+    position:absolute;
+    margin-right: 4%;
+    margin-left: 4%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.game:hover .info{
+    opacity: 1;
+}
+.game-panel{
+    max-width: 80%;
+    margin-left: 12%;
+    position: relative;
+    width: 100%;
+}
+@keyframes colorGlow {
+    0%{
+        color: #fff;
+        text-shadow: 0 0 2.5px #03BCF4,
+        0 0 5px #03BCF4,
+        0 0 10px #03BCF4,
+        0 0 20px #03BCF4,
+        0 0 40px #03BCF4;
+    }
+    100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03BCF4,
+        0 0 20px #03BCF4,
+        0 0 40px #03BCF4,
+        0 0 80px #03BCF4,
+        0 0 160px #03BCF4;
+    }
+}
+
+#apprentissage{
+  margin-top: -280pt;
+   margin-left: 350pt;
+    
+    background-color: white;
+    border: solid 2px white;
+    width: 75%;
+
+
+
+}
+.game-panel input{
+    margin-left: 460pt;
+    display: flex;
+    margin-top: -200pt;
+    width: 200px;
+    background-color: green;
+    border-color: white;
+    color: white;
+    padding: 1rem;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 2rem;
+}
+#apprentissage p{
+    
+    padding-right: 20pt;
+    margin-left: 20pt;
+    text-align: justify;
+}
+
+
+h1{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 65px;
+    font-family: RaceSportFree;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    animation: colorGlow 1s linear 0s infinite alternate-reverse;
+}
+h2{
+    margin-top: 50pt;
+    font-size: 35px;
+    font-family: RaceSportFree;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 901px){
+.game-panel ul{
+    max-width: 100%;
+    transition: 1s;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+}
+}
+@media screen and (max-width: 901px){
+.game-panel ul{
+    max-width: 100%;
+    transition: 1s;
+    padding: 1%;
+    display: grid;
+    margin-left:6% ;
+    grid-template-columns: repeat(1,1fr);
+    list-style-type: none;
+}
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.gameImg{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    border-radius: 7px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+button {
+    
+    margin-bottom: 40px;
+    margin-left: 810px;
+    margin-top: 70px;
+    padding: 20px 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 0px;
+  background: green;
+  position: relative;
+  transition: all .2s;
+  overflow: hidden;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px -0px 0px 0px rgba(143, 64,   248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+}
+
+button::after {
+  content: '';
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-image: linear-gradient(225deg,   #27d86c 0%, #26caf8 50%, #c625d0 100%);
+  z-index: -1;
+  transition: all .5s;
+}
+
+button:hover::after {
+  transform: rotate(150deg);
+}
+
+button:hover {
+  transform: translate(0,-6px);
+  box-shadow: 10px -10px 25px 0px rgba(143,   64, 248, .25), -10px 10px 25px 0px rgba(39, 200,   255, .25);
+}

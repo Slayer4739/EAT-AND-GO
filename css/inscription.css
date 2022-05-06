@@ -1,0 +1,162 @@
+@media screen and (min-width: 901px){
+.inscription-block{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display:block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 60%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #171c24;
+    border-radius: 20px;
+}
+.inscription-block label{
+    color: white;
+    font-family: RaceSportFree;
+    font-size: 50px;
+}
+
+.inscription-block div{
+    margin-top:3.5%;
+}
+.inscription-block input{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.inscription-block input::placeholder{
+    color: #171c24;
+}
+
+.inscription-block input[type="text"]{
+    border: black; solid 1px; 
+    color: #171c24;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.inscription-block input[type="text"]:focus{
+    width: 40%;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 17px;
+}
+
+.inscription-block input[type="password"]{
+    border: black solid 1px; 
+    color: #171c24;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.inscription-block input[type="password"]:focus{
+    width: 40%;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 17px;
+}
+
+.inscription-block input[type="submit"]{
+    background-color: #214761;
+    color: white;
+    height: 6%;
+    width: 15%;
+    transition: 0.25s;
+    border-radius: 7px;
+    border: grey solid 1px;
+}
+
+.inscription-block input[type="submit"]:hover{
+    width: 18%;
+}
+}
+@media screen and (max-width: 900px){
+.inscription-block{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display:block;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #171c24;
+    border-radius: 20px;
+}
+.inscription-block label{
+    color: white;
+    font-family: RaceSportFree;
+    font-size: 50px;
+}
+
+.inscription-block div{
+    margin-top:3%;
+}
+.inscription-block input{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.inscription-block input::placeholder{
+    color: #171c24;
+}
+
+.inscription-block input[type="text"]{
+    border: black; solid 1px; 
+    color: #171c24;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.inscription-block input[type="text"]:focus{
+    width: 50%;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 17px;
+}
+
+.inscription-block input[type="password"]{
+    border: black solid 1px; 
+    color: #171c24;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 40%;
+    transition: 0.25s;
+    font-size: 15px;
+}
+
+.inscription-block input[type="password"]:focus{
+    width: 50%;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 17px;
+}
+
+.inscription-block input[type="submit"]{
+    background-color: #214761;
+    color: white;
+    height: 6%;
+    width: 15%;
+    transition: 0.25s;
+    border-radius: 7px;
+    border: grey solid 1px;
+}
+
+.inscription-block input[type="submit"]:hover{
+    width: 18%;
+}
+}

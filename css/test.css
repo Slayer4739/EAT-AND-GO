@@ -1,0 +1,150 @@
+
+  
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+
+    background-color: black;
+    width: 100vw;
+    height: 170px;
+    font-size: 17px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: Trebuchet MS, sans-serif;
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    margin-left: -100px;
+    height: 150px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+
+header nav{
+   
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+   
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+   
+    margin-right: 0;
+}
+
+header nav span {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: white;
+   
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+
+
+
+nav {
+ 
+    text-align: center;
+  }
+  .menu {
+  margin-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+  }
+
+ 
+  .menu > li {
+   
+    float: left;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Trebuchet MS, sans-serif;  
+    position: center;
+}
+  .sub-menu {
+  
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
+  }
+  .sub-menu li {
+   
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 0;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
+  }
+  .sub-menu li:last-child {
+    border-bottom: 0;
+  }
+  .sub-menu li:hover {
+    background: black;
+  }
+  .menu > li:hover .sub-menu li {
+    transform: scale(1);
+  }
+  .menu > li:hover .sub-menu {
+    transform: scale(1);
+  }
+
+
+
+  

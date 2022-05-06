@@ -1,0 +1,202 @@
+@charset "UTF-8";
+.supportbox input::placeholder {
+    color: black;
+  }
+  .supportbox input{
+      margin-left: 300px;
+      display: flex;
+     margin-top: 60px;
+     margin-left:370px ;
+  
+      
+     
+        padding: 6px 10px;
+        
+         outline: none;
+         width: 300px;
+         
+     
+     
+  }
+  #apprentissage p{
+      
+      padding-right: 20pt;
+      margin-left: 20pt;
+      text-align: justify;
+  }
+  
+  
+  h1{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 30px;
+    
+    color: black;
+
+    font-weight: bold;
+    
+  }
+  h2{
+    
+   margin-top: 30px;
+      font-size:40px;
+      font-family: Trebuchet MS, sans-serif;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  
+  
+  .supportbox button {
+      
+      margin-bottom: 40px;
+      margin-left: 410px;
+      margin-top: 100px;
+      padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #1ab26b; /* This HEX is the color of the button */
+     
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64,   248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+  }
+  
+  .supportbox button::after {
+    content: '';
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-image: linear-gradient(225deg,   #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    z-index: -1;
+    transition: all .5s;
+  }
+  
+  .supportbox button:hover::after {
+    transform: rotate(150deg);
+  }
+  
+  .supportbox button:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143,   64, 248, .25), -10px 10px 25px 0px rgba(39, 200,   255, .25);
+  }
+  
+  
+  
+  .supportbox{
+
+    margin-bottom: 100px;
+   
+  width: 80%;
+      
+    opacity: 0.8;
+      border-radius: 12px;
+      border: solid rgb(0, 0, 0);
+      margin-left: 12%;
+      margin-right: 21%;
+      margin-top: 5%;
+      position: static;
+      padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  .supportbox p {
+    margin-left: 320px;
+    font-size: 20px;
+  }
+  
+  .alert-success{
+    position: relative;
+    width: 320px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2em;
+    background-color: #8BC34A;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  font-size: 20px;
+  }
+  
+  .alert-danger{
+    position: relative;
+    width: 320px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2em;
+    background-color: #c34a4a;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  font-size: 20px;
+  }
+  
+  .supportbox .nom{
+    margin-right: 200px;
+  }
+  
+  .form-group img{
+      margin-left: 50px;
+      width: 10%;
+      height: 10%;
+  }
+
+  .form-group .info{
+   margin-top: 20px;
+    margin-left: 30px;
+}
+.box img{
+  border-radius: 50%;
+    border: solid black 3px;
+  }
+
+.box{
+   
+    
+    background-repeat: no-repeat;
+  
+    background-image: url(../Images/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg);
+    background-size: 110%;    
+   background-position: bottom;
+border: solid rgb(0, 0, 0) 2px;
+    width: 99,5%;
+  backface-visibility: hidden;
+    animation: box 10s linear infinite 0s ;
+  animation-timing-function:ease-in-out ;  
+  margin-top: -40px;
+    position: static;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 1%;
+}
+@keyframes box {
+  0% {
+    background-image: url(../Images/animals-firewatch-forest-minimalism-wallpaper-preview.jpg);
+  }
+  25% {
+    background-image: url(../Images/wallpapersden.com_firewatch-video-games-mountains_1920x1080.jpg);
+  }
+  50% {
+    background-image: url(../Images/firewatch-tower-minimalism-4k-6l-1920x1080.jpg);
+  }
+  75% {
+    background-image: url(../Images/daka-dibuja-8-atardecer.jpg);
+  }
+  100% {
+    background-image: url(../Images/daka-dibuja-6-medio-dia.jpg);
+ 
+}
+}

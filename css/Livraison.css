@@ -1,0 +1,244 @@
+ .velo img{
+width: 9%;
+position: absolute;
+margin-top: 160px;
+margin-left: 100px;
+}
+
+.route img{
+  margin-left: -10px;
+  position: absolute;
+    margin-top: 120px;
+    width: 30%;
+}
+
+.livraison{
+    
+    margin-left: 660px;
+}
+
+h2{
+    
+    margin-top: 10px;
+       font-size:30px;
+       font-family: Trebuchet MS, sans-serif;
+       color: rgb(0, 0, 0);
+       margin-left: 50%;
+       font-weight: bold;
+   }
+
+   .livraison p{
+    font-family: Trebuchet MS, sans-serif;
+    margin-left: 70px;
+    position: absolute;  
+    font-size: 200%;
+       margin-top: 370px;
+   }
+   h7{
+    
+    font-size:30px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 50%;
+    font-weight: bold;
+
+   }
+   h5{
+    
+    font-size:30px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 50%;
+    font-weight: bold;
+
+   }
+   h12{
+    margin-top:   10px;
+    font-size:20px;
+    text-decoration: underline;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+  
+    font-weight: bold;
+   }
+
+   h6{
+    margin-top:   10px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+   
+    font-weight: bold;
+
+   }
+   h15{
+    margin-left: 650px;
+    margin-top:   50px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+   text-align: center;
+    font-weight: bold;
+
+   }
+   h13{
+   margin-left: 730px;
+    
+   margin-top:   10px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+   text-align: center;
+    font-weight: bold;
+
+   }
+  .box h10{
+   
+    margin-top:   100px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+
+   }
+
+   .box h11{
+   
+    margin-top:   100px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+
+   }
+  .time{
+    margin-top: 10px;
+    font-size:40px;
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(0, 0, 0);
+   
+    font-weight: bold;
+  }
+
+.Images img{
+   
+    width:30%;
+    margin-left: 10%;
+    margin-top: -100px;
+    border-radius: 2%;
+    border: solid black 2px;
+}
+
+.supportbox{
+  background-color: rgb(63, 63, 63); 
+  margin-top: 400px;
+    margin-bottom: 100px;
+   width: 50%;
+      border-radius: 12px;
+      border: solid rgb(0, 0, 0);
+      margin-left: 24%;
+      margin-right: 21%;
+   padding-bottom: 10px;
+      padding-top: 0px;
+  }
+
+  .supportbox .apprentissage p{
+    margin-top: -10px;
+    font-size: 20px;
+    padding-right: 60pt;
+    margin-left: 60pt;
+    text-align: justify;
+  }
+
+  .apprentissage h5{
+    font-size: 20px;
+   margin-left: 50pt;
+    margin-top: 50px;
+}
+
+h4{
+
+    text-align: center;
+}
+
+input[type="submit"]::after {
+    content: '';
+    width: 400px;
+    height: 400px;
+
+    top: -50px;
+    left: -100px;
+    background-image: linear-gradient(225deg,   #27d86c 0%, #26caf8 50%, #c625d0 100%);
+    z-index: -1;
+    transition: all .5s;
+  }
+  
+  input[type="submit"]:hover::after {
+    transform: rotate(150deg);
+  }
+  
+  input[type="submit"]:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143,   64, 248, .25), -10px 10px 25px 0px rgba(39, 200,   255, .25);
+  }
+  
+  
+  
+  input[type="submit"]{
+      margin-bottom: 40px;
+      margin-left: 350px;
+      margin-top: 140px;
+      padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #b21a1a; /* This HEX is the color of the button */
+     
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64,   248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+  }
+
+  .box{
+
+background-color: white;
+      margin-top: 130px;
+      margin-bottom: -100px;
+     height: 10%;
+      width: 90%;
+        border-radius: 12px;
+        border: solid rgb(0, 0, 0);
+        margin-left: 5%;
+        margin-right: 21%;
+     padding-bottom: 30px;
+        padding-top: 0px;
+  }
+  
+ 
+  .box2{
+
+
+    margin-top: 130px;
+    margin-bottom: -100px;
+   height: 10%;
+    width: 90%;
+      border-radius: 12px;
+      border: solid rgb(0, 0, 0);
+      margin-left: 5%;
+      margin-right: 21%;
+   padding-bottom: 30px;
+      padding-top: 0px;
+}
+
+
+  .box img{
+   position: absolute;
+    width: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
